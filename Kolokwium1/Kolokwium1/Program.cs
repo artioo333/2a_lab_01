@@ -29,7 +29,7 @@ namespace Kolokwium1
                 Console.WriteLine(y[i] = y[n]);
             }
         }
-    }
+    
 
         public static void Arg2()
         {
@@ -39,10 +39,6 @@ namespace Kolokwium1
                 tab[i] = i;
                 Console.WriteLine(tab[i] + " ");
             }
-        }
-        public void Arg3()
-        {
-
         }
     }
 }
