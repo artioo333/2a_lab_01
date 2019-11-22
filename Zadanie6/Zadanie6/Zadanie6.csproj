@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{6FE5ED1B-1209-4763-AD8F-388F91ADE797}</ProjectGuid>
+    <ProjectGuid>{E142E29C-E04C-4071-89DF-F3F74E8B6543}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Zadanie5.a</RootNamespace>
-    <AssemblyName>Zadanie5.a</AssemblyName>
+    <RootNamespace>Zadanie6</RootNamespace>
+    <AssemblyName>Zadanie6</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -45,6 +45,8 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Samochod.cs" />
+    <Compile Include="StronaInternetowa.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
