@@ -10,35 +10,49 @@ namespace Kolokwium1
     {
         static void Main(string[] args)
         {
-            Arg1();
-            {
-                Console.WriteLine();
-            }
-        }
-        public static void Arg1()
-        {
-            Console.WriteLine("Podaj wartość n:");
-            int n = 10;
-            double[] y = new double[n];
-            for (int i = n; 0 < i; i--)
-            {
-                y[n] = 1.5 * (y[i - 1]) - 1;
-            }
-            for (int i = 0; i < n; i++)
-            {
-                Console.WriteLine(y[i] = y[n]);
-            }
-        }
-    
+            Console.WriteLine("Wpisz numer Zadania:");
+            int liczba = int.Parse(Console.ReadLine());
 
-        public static void Arg2()
-        {
-            int[] tab = new int[200];
-            for (int i = 1; i < 200; i++)
+            switch (liczba)
             {
-                tab[i] = i;
-                Console.WriteLine(tab[i] + " ");
+                case 1:
+                    Console.Clear();
+                    Zad01 xd = new Zad01();
+                    xd.Zad1();
+                    break;
+                case 2:
+                    Console.Clear();
+                    Zad02 xd2 = new Zad02();
+                    xd2.Zad2();
+                    break;
+                case 3:
+                    Console.Clear();
+                    Zad03 xd3 = new Zad03();
+                    xd3.Zad3();
+                    break;
+                case 4:
+                    Console.Clear();
+                    Zad04 xd4 = new Zad04();
+                    xd4.Zad4();
+                    break;
+                case 5:
+                    Console.Clear();
+                    var dat1 = new DateTime(2001, 04, 20);
+                    var dat2 = new DateTime(2020, 01, 10);
+                    Zad05 xd5 = new Zad05("J.K. Rowling", "Harry Pjoter: Czara Łognia", dat1, dat2, 49.99, 20);
+                    Console.WriteLine(xd5.Autor);
+                    Console.WriteLine(xd5.Tytul);
+                    Console.WriteLine(xd5.AktualnaCena);
+                    Console.WriteLine(xd5.DataOstatniegoZakupu);
+                    Console.ReadLine();
+                    break;
+                default:
+
+                    break;
+
+
             }
+
         }
     }
 }
