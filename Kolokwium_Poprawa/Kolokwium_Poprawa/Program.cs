@@ -6,7 +6,20 @@ namespace Kolokwium_Poprawa
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-        }
+            int liczba;
+            liczba = int.Parse(Console.ReadLine());
+
+            switch (liczba)
+            {
+                case 1:
+                    Zad1 xd = new Zad1();
+                    xd.Zad01();
+                    break;
+                case 2:
+                    Zad02 xd2 = new Zad02();
+                    xd2.Zad2();
+                    break;
+            }
+        }        
     }
 }
