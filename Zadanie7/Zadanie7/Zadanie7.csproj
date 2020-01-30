@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{3831927A-16AA-4912-BEBE-39F4308A3CE1}</ProjectGuid>
+    <ProjectGuid>{5122CF52-DF51-4088-BBB4-CCBE8DDCD2CF}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Zadanie10</RootNamespace>
-    <AssemblyName>Zadanie10</AssemblyName>
+    <RootNamespace>Zadanie7</RootNamespace>
+    <AssemblyName>Zadanie7</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Osoba.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
