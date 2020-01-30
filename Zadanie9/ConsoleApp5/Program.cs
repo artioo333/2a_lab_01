@@ -16,6 +16,9 @@ namespace ConsoleApp5
             Console.WriteLine(text.Zlicz('a', true));
             Console.ReadKey();
 
+            Reklama reklama = new Reklama("Kup teraz", TypOsoby.Dziecko | TypOsoby.Młodzierz | TypOsoby.Starszy, Zainteresowania.Gaming);
+            reklama.Test();
+
         }
     }
 }
