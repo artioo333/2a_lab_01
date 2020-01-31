@@ -9,6 +9,7 @@ namespace Kolokwium_Poprawa
         public void Zad1()
         {
             Zad111();
+            Console.ReadLine();
         }
         public static bool Zad111()
         {
